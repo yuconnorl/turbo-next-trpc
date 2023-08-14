@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@yuc/web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.32.6",
+    "@tanstack/react-query-devtools": "^4.32.6",
+    "@trpc/client": "^10.37.1",
+    "@trpc/next": "^10.37.1",
+    "@trpc/react-query": "^10.37.1",
+    "@trpc/server": "^10.37.1",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*"
+    "superjson": "^1.13.1",
+    "@yuc/ui": "*",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.4",
+    "autoprefixer": "^10.4.15",
     "eslint-config-custom": "*",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   }
